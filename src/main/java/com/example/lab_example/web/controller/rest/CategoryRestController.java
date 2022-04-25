@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://gentle-journey-92804.herokuapp.com")
 @RequestMapping("/api/categories")
 public class CategoryRestController {
     @GetMapping
